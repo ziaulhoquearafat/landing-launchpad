@@ -118,13 +118,6 @@ header{
     border-radius: 24px;
 }
 
-/* .productive-user h2{
-    font-size: 38px;
-    font-weight: bold;
-    color: #252432;
-    margin-bottom: 1px;
-    font-family: raleway;
-} */
 
 .productive-action-title{
     font-size: 38px;
@@ -152,5 +145,65 @@ header{
 .productive-users-description{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* Review Section Style */
+
+.review-section{
+    margin: 137px 150px;
+}
+
+.review-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 50px;
+    color: #1e1e1e;
+    line-height: 5px;
+}
+
+.review h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1e1e1e;
+}
+
+.review-by-user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.review-by-user-img img{
+    border-radius: 50%;
+}
+
+.reviewer-details h5{
+    color: #757575;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.reviewer-details p{
+    color: #757575;
+    font-size: 15px;
+    line-height: 0;
+}
+
+.review-card-section{
+    display: flex;
+    gap: 20px;
+}
+
+.review{
+    border: 1px solid #f2eded;
+    padding: 24px;
+    border-radius: 14px;
+    background-color: #fafcff;
 }
 
