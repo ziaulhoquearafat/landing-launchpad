@@ -298,36 +298,40 @@ form label, input{
 /* footer section style */
 
 footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer{
     width: 530px;
     margin: 200px 450px 104px;
     text-align: center;
 }
 
-footer h2{
+.footer h2{
     color: #4E47FF;
     font-size: 100px;
     font-weight: 900;
     line-height: 0px;
 }
 
-footer p{
+.footer p{
     font-size: 16px;
     color: #8987A1;
     line-height: 25px;
     margin-bottom: 20px;
 }
 
-footer ul{
+.footer ul{
     display: flex;
     gap: 25px;
     justify-content: center;
 }
 
-footer ul a{
+.footer ul a{
     text-decoration: none;
     color: #8987A1;
 }
 
-footer ul li{
+.footer ul li{
     list-style: none;
 }
