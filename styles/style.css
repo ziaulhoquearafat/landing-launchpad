@@ -235,3 +235,61 @@ header{
 .focus-section img{
     border-radius: 48px;
 }
+
+/* Get in touch section style */
+
+.get-in-touch{
+    margin: 0px 150px 118px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.get-in-touch-title{
+    width: 500px;
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
+form label, input{
+    display: block;
+}
+
+.get-in-touch-form label{
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 10px;
+}
+
+.get-in-touch-form input[type="email"], input[type="text"], textarea{
+    padding: 20px 32px;
+    width: 100%;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    font-family: inter;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.input-btn-primary{
+    background-color: #4E47FF;
+    padding: 19px 46%;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.input-btn-primary:hover{
+    background-color: #f0c30e;
+    color: black;
+    cursor: pointer;
+}
