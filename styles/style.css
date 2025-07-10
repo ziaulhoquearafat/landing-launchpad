@@ -76,3 +76,33 @@ header{
     color: #252432;
 }
 
+/* Action Section */
+
+.action-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 116px 140px;
+}
+
+.action-subsection{
+    width: 500px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.action-description{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+
+
+.action-section img{
+    border-radius: 48px;
+}
