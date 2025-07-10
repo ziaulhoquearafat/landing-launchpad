@@ -293,3 +293,41 @@ form label, input{
     color: black;
     cursor: pointer;
 }
+
+
+/* footer section style */
+
+footer{
+    width: 530px;
+    margin: 104px 450px;
+    text-align: center;
+}
+
+footer h2{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 0px;
+}
+
+footer p{
+    font-size: 16px;
+    color: #8987A1;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
+footer ul li{
+    list-style: none;
+}
