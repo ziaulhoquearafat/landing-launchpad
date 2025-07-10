@@ -207,3 +207,31 @@ header{
     background-color: #fafcff;
 }
 
+/* Focus section style */
+
+.focus-section{
+    margin: 0 150px 137px;
+    padding: 70px 150px;
+}
+
+.focus-section h2{
+    text-align: center;
+    line-height: 30px;
+}
+
+.focus-section p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.btn-align{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.focus-section img{
+    border-radius: 48px;
+}
